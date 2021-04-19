@@ -25,7 +25,7 @@ Trisquel Mini | Ubuntu | 9.0 Etiona | 10/19/2020 | Fixed | DEB/APT | LXDE | syst
 Ubuntu MATE | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | MATE | systemd | 5.8.0 | 2500 MB | 4096 MB | 16 GB
 Xubuntu | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | Xfce | systemd | 5.8.0 | 1700 MB | 2048 MB | 20 GB
 Zorin OS Lite | Ubuntu | 15.3 | 09/08/2020 | Fixed | DEB/APT | Xfce | systemd | 5.4.0 | 2200 MB | 512 MB | 8 GB
-&nbsp;    
+  
 ## Criteria
 With a list this long, it is difficult and impractical to download the ISO and perform a test run for each and every distro.  Some qualifying criteria would definitely help in pairing down this list.  For my own needs, I wanted a distro that is: (1) modern and (2) updated regularly.  
 
@@ -66,7 +66,7 @@ Simply put, the virtual machine was created with the following set of attributes
 CPU | RAM | Hard Disk
 ----|-----|----------
 2 | 4096 MB | 20 GB
-&nbsp;
+
 #### Virtual Machines Specs: Configuration File
 For an exact set of specifications, here is the XML configuration of the virtual machine.
 
@@ -171,7 +171,7 @@ With a name like "Linux Lite", one would expect that the resources usage for thi
 CPU | RAM | Hard Disk
 ----|-----|----------
 3% | 573 MB (14%) | 7.3 GB (41%)
-&nbsp;
+
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/Lubuntu_logo.png" alt="lubuntu logo" height="60">
 
@@ -204,7 +204,7 @@ Lubuntu absolutely shines when it comes to being light on resources.  It's hard 
 CPU | RAM | Hard Disk
 ----|-----|----------
 1% | 392 MB (10%) | 5.2 GB (28%)
-&nbsp;
+
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/ubuntu_mate_logo.png" alt="ubuntu mate logo" height="50">
 
@@ -237,7 +237,7 @@ From the looks of things, Ubuntu MATE doesn't seem to be competing in terms of b
 CPU | RAM | Hard Disk
 ----|-----|----------
 2% | 815 MB (21%) | 7.8 GB (44%)
-&nbsp;
+
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_logo.png" alt="linux lite logo" height="60">
 
@@ -270,7 +270,7 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 CPU | RAM | Hard Disk
 ----|-----|----------
 2% | 573 MB (14%) | 7.0 GB (39%)
-&nbsp;
+
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_logo.png" alt="linux lite logo" height="50">
 
@@ -303,7 +303,7 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 CPU | RAM | Hard Disk
 ----|-----|----------
 1% | 655 MB (14%) | 7.2 GB (39%)
-&nbsp;
+
 
 ## Conclusion
 After installing each of these distros on a virtual machine and getting to know more about them (especially at an idle state), the following comparison is being made.  The difference of CPU usage at an idle state amongst the distros is negligible.  When we start to look at RAM utilization and hard disk space, the clear stand-out is Lubuntu.  The LXQt desktop really puts the Qt framework in a whole new light of being lean and efficient, especially in terms of memory usage at idle.  
@@ -315,7 +315,7 @@ Lubuntu | 1% | 392 MB (10%) | 5.2 GB (28%)
 Ubuntu MATE| 2% | 815 MB (21%) | 7.8 GB (44%)
 Zubuntu | 2% | 573 MB (14%) | 7.0 GB (39%)
 Zorin OS Lite | 1% | 655MB (14%) | 7.2 GB (39%)
-&nbsp;
+
 
 ### Author's Note
 An Arch installation with LXQt is even more leaner than Lubuntu.  However, Arch was not considered for this analysis since it does not come with a collection of curated applications.  After performing this analysis, I do plan on removing the Cinnamon desktop environment from a laptop that I have running Arch and installing LXQt instead.  I know that once you install Arch, there isn't a need to do it again on the same machine, but this use case is very, very tempting.
