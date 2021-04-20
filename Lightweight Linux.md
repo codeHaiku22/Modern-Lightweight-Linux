@@ -140,6 +140,11 @@ For an exact set of specifications, here is the XML configuration of the virtual
 </domain>
 ```
 
+&nbsp;
+
+---
+&nbsp;
+
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/linux_lite_logo.png" alt="linux lite logo" height="50">
 
 &nbsp;
@@ -172,6 +177,10 @@ CPU | RAM | Hard Disk
 ----|-----|----------
 3% | 573 MB (14%) | 7.3 GB (41%)
 
+&nbsp;
+
+---
+&nbsp;
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/Lubuntu_logo.png" alt="lubuntu logo" height="60">
 
@@ -205,6 +214,10 @@ CPU | RAM | Hard Disk
 ----|-----|----------
 1% | 392 MB (10%) | 5.2 GB (28%)
 
+&nbsp;
+
+---
+&nbsp;
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/ubuntu_mate_logo.png" alt="ubuntu mate logo" height="50">
 
@@ -238,6 +251,10 @@ CPU | RAM | Hard Disk
 ----|-----|----------
 2% | 815 MB (21%) | 7.8 GB (44%)
 
+&nbsp;
+
+---
+&nbsp;
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_logo.png" alt="linux lite logo" height="60">
 
@@ -271,6 +288,10 @@ CPU | RAM | Hard Disk
 ----|-----|----------
 2% | 573 MB (14%) | 7.0 GB (39%)
 
+&nbsp;
+
+---
+&nbsp;
 
 <img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_logo.png" alt="linux lite logo" height="50">
 
@@ -304,7 +325,9 @@ CPU | RAM | Hard Disk
 ----|-----|----------
 1% | 655 MB (14%) | 7.2 GB (39%)
 
+&nbsp;
 
+---
 ## Conclusion
 After installing each of these distros on a virtual machine and getting to know more about them (especially at an idle state), the following comparison is being made.  The difference of CPU usage at an idle state amongst the distros is negligible.  When we start to look at RAM utilization and hard disk space, the clear stand-out is Lubuntu.  The LXQt desktop really puts the Qt framework in a whole new light of being lean and efficient, especially in terms of memory usage at idle.  
 
