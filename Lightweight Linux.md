@@ -1,4 +1,8 @@
 # In Search of the Modern Lightweight Linux Champion
+Deep Grewal - April 19, 2021
+
+---
+
 As a Linux user, I was recently in search of a Linux distribution (distro) that is lightweight and runs efficiently on a virtual machine or a physical machine using minimal resources.  In the end, only 1 would be chosen as the lightweight Linux distribution of choice.  It would have to be good enough to deploy as a daily-driver on my main machine.  So, I began the online search and found many articles recommending copious distros which claim to check the boxes for the aforementioned requirements.  Needless to say, the number of returned results was staggering.     
 
 ## The Long List of Contenders
