@@ -29,13 +29,14 @@ Trisquel Mini | Ubuntu | 9.0 Etiona | 10/19/2020 | Fixed | DEB/APT | LXDE | syst
 Ubuntu MATE | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | MATE | systemd | 5.8.0 | 2500 MB | 4096 MB | 16 GB
 Xubuntu | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | Xfce | systemd | 5.8.0 | 1700 MB | 2048 MB | 20 GB
 Zorin OS Lite | Ubuntu | 15.3 | 09/08/2020 | Fixed | DEB/APT | Xfce | systemd | 5.4.0 | 2200 MB | 512 MB | 8 GB
-  
+
+&nbsp;  
 ## Criteria
 With a list this long, it is difficult and impractical to download the ISO and perform a test run for each and every distro.  Some qualifying criteria would definitely help in pairing down this list.  For my own needs, I wanted a distro that is: (1) modern and (2) updated regularly.  
 
-Let's start by defining "modern"; it can be a very vague term and interpreted as meaning different things.  A "modern" distro, as defined for this experiment, is one that has adopted systemd and has a kernel version that is greater than or equal or to the last two major LTS kernels (5.10 and 5.4).  Simply being "modern" isn't quite enough.  
+Let's start by defining "modern".  It can be a very vague term and interpreted as meaning different things.  A "modern" distro, as defined for this experiment, is one that has adopted systemd and has a kernel version that is greater than or equal or to the last 2 major LTS kernels (5.10 and 5.4).    
 
-I don't want to end up with a distro that is a one-hit wonder or has a short run.  So, a track record of routine and regular updates is preferred since it builds more confidence in sticking with the distro for a longer period of time.  I didn't want to run into and repeat my experience with Antergos.  
+Simply being "modern" isn't quite enough.  I don't want to end up with a distro that is a one-hit wonder or has a short run.  So, a track record of routine and regular updates is preferred since it builds more confidence in sticking with the distro for a longer period of time.  I didn't want to run into and repeat my experience with Antergos.  
 
 ## The Shortened List of Contenders
 After applying the criteria above to the list of contenders, the list was refined as follows.  Not surprisingly, all of the qualifying distros are based on Ubuntu (although this was not the intention. However, it does highlight the lack of modern distros that are lightweight and based on something other than Ubuntu.  
@@ -47,30 +48,34 @@ Lubuntu | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | LXQt | systemd | 5.8.0
 Ubuntu MATE | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | MATE | systemd | 5.8.0 | 2500 MB | 4096 MB | 16 GB
 Xubuntu | Ubuntu | 20.10 | 10/22/2020 | Fixed | DEB/APT | Xfce | systemd | 5.8.0 | 1700 MB | 2048 MB | 20 GB
 Zorin OS Lite | Ubuntu | 15.3 | 09/08/2020 | Fixed | DEB/APT | Xfce | systemd | 5.4.0 | 2200 MB | 512 MB | 8 GB
+
 &nbsp;
 ## Methodology
-The procedure for this experiment is quite simple.  Download the ISOs of each distribution, install them to the virtual machine using the default settings whenever possible (avoiding the option to install additional drivers and media codecs), measure the results at an idle state of the running distro, and revert the virtual machine back to its snapshot (no OS installed).
+The procedure for this experiment is quite simple.  Create a virtual machine with no operating system installed and take a snapshot.  Download the ISOs of each distribution. Install a distro to the virtual machine using the default settings whenever possible (avoiding the option to install additional drivers and media codecs).  Then, measure the results at an idle state of the running distro. Finally, revert the virtual machine back to its snapshot (no OS installed) and repeat for the next distro.
 
 ### Download the ISO Files
 Thanks to some useful criteria, it is a lot easier to test 5 distros as compared to 20 distros.  I downloaded the latest ISO file directly from the respective website for each distro.  The sizes of the ISOs differed significantly (sorted below in descending file size order). 
 
-```
-[deep@localhost iso]$ ls -lah | sort -nr | grep iso
--rw-rw-r-- 1 deep deep  2.6G Apr 12 11:56 ubuntu-mate-20.10-desktop-amd64.iso
--rw-rw-r-- 1 deep deep  2.3G Apr  2 15:27 Zorin-OS-15.3-Lite-64-bit.iso
--rw-rw-r-- 1 deep deep  1.8G Apr  2 09:31 lubuntu-20.10-desktop-amd64.iso
--rw-rw-r-- 1 deep deep  1.4G Apr  2 09:40 linux-lite-5.4-64bit.iso
--rw-r--r-- 1 deep deep  1.7G Apr 12 11:59 xubuntu-20.10-desktop-amd64.iso
-```
+Distro | File Name | File Size
+-------|-----------|----------
+Ubuntu Mate 20.10 | ubuntu-mate-20.10-desktop-amd64.iso | 2.6 GB
+Zorin OS Lite 15.3 | Zorin-OS-15.3-Lite-64-bit.iso | 2.3 GB
+Lubuntu 20.10 | lubuntu-20.10-desktop-amd64.iso | 1.8 GB
+Xubuntu 20.10 | xubuntu-20.10-desktop-amd64.iso | 1.7 GB
+Linux Lite 5.4 | linux-lite-5.4-64bit.iso | 1.4 GB
 
+&nbsp;
 ### Create a Test Environment
 Since I was testing for lightweight efficiency, a virtual machine seemed to be the best medium on which to test each distro.  Using virt-manager, I created a virtual machine which would be the installation target and testbench for each distro.  The specifications of the virtual machine are shown below.  The greatest RAM amount and greatest hard disk size were chosen from the recommended system requirements of the 5 distros to be tested to ensure that the greatest common factor (GCF) was considered.
 
-Simply put, the virtual machine was created with the following set of attributes,
+Simply put, the virtual machine was created with the following set of attributes:
+
 CPU | RAM | Hard Disk
 ----|-----|----------
 2 | 4096 MB | 20 GB
 
+
+&nbsp;
 #### Virtual Machines Specs: Configuration File
 For an exact set of specifications, here is the XML configuration of the virtual machine.
 
@@ -143,6 +148,8 @@ For an exact set of specifications, here is the XML configuration of the virtual
   </devices>
 </domain>
 ```
+
+With the test environment and methodology established, it was now time to put each distro to the test.  Here's how things went.
 
 &nbsp;
 
@@ -231,11 +238,11 @@ Ubuntu MATE is also another great distribution for those who are new to Linux.  
 
 &nbsp;
 ### Control Center
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_settings.png" alt="mate settings">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_settings.png" alt="ubuntu mate settings">
 
 &nbsp;
 ### Software Boutique
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_0ad.png" alt="mate 0ad">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_0ad.png" alt="ubuntu mate 0ad">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -243,11 +250,11 @@ From the looks of things, Ubuntu MATE doesn't seem to be competing in terms of b
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_sysmon.png" alt="mate system monitor">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_sysmon.png" alt="ubuntu mate system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_df.png" alt="mate disk free">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_df.png" alt="ubuntu mate disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -260,7 +267,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_logo.png" alt="linux lite logo" height="60">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_logo.png" alt="xubuntu lite logo" height="60">
 
 &nbsp;
 ## First Impressions
@@ -280,11 +287,11 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_sysmon.png" alt="lubuntu system monitor">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_sysmon.png" alt="xubuntu system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_df.png" alt="lubuntu disk free">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_df.png" alt="xubuntu disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -297,7 +304,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_logo.png" alt="linux lite logo" height="50">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_logo.png" alt="zorin logo" height="50">
 
 &nbsp;
 ## First Impressions
@@ -317,17 +324,17 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_sysmon.png" alt="lubuntu system monitor">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_sysmon.png" alt="zorin system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_df.png" alt="lubuntu disk free">
+<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_df.png" alt="zorin disk free">
 
 &nbsp;
 ### Usage Stats Summary
 CPU | RAM | Hard Disk
 ----|-----|----------
-1% | 655 MB (14%) | 7.2 GB (39%)
+1% | 655 MB (16%) | 7.2 GB (39%)
 
 &nbsp;
 
@@ -343,7 +350,7 @@ Linux Lite | 3% | 573 MB (14%) | 7.3 GB (41%)
 Lubuntu | 1% | 392 MB (10%) | 5.2 GB (28%)
 Ubuntu MATE| 2% | 815 MB (21%) | 7.8 GB (44%)
 Zubuntu | 2% | 573 MB (14%) | 7.0 GB (39%)
-Zorin OS Lite | 1% | 655MB (14%) | 7.2 GB (39%)
+Zorin OS Lite | 1% | 655MB (16%) | 7.2 GB (39%)
 
 &nbsp;
 ### Champion
