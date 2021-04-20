@@ -331,6 +331,8 @@ CPU | RAM | Hard Disk
 ## Conclusion
 After installing each of these distros on a virtual machine and getting to know more about them (especially at an idle state), the following comparison is being made.  The difference of CPU usage at an idle state amongst the distros is negligible.  When we start to look at RAM utilization and hard disk space, the clear stand-out is Lubuntu.  The LXQt desktop really puts the Qt framework in a whole new light of being lean and efficient, especially in terms of memory usage at idle.  
 
+&nbsp;
+### Usage Stats Summary
 Distro | CPU | RAM | Hard Disk
 -------|-----|-----|----------
 Linux Lite | 3% | 573 MB (14%) | 7.3 GB (41%)
@@ -339,6 +341,14 @@ Ubuntu MATE| 2% | 815 MB (21%) | 7.8 GB (44%)
 Zubuntu | 2% | 573 MB (14%) | 7.0 GB (39%)
 Zorin OS Lite | 1% | 655MB (14%) | 7.2 GB (39%)
 
+&nbsp;
+### Champion
 
+Distro | CPU | RAM | Hard Disk
+-------|-----|-----|----------
+Lubuntu | 1% | 392 MB (10%) | 5.2 GB (28%)
+
+
+&nbsp;
 ### Author's Note
 An Arch installation with LXQt is even more leaner than Lubuntu.  However, Arch was not considered for this analysis since it does not come with a collection of curated applications.  After performing this analysis, I do plan on removing the Cinnamon desktop environment from a laptop that I have running Arch and installing LXQt instead.  I know that once you install Arch, there isn't a need to do it again on the same machine, but this use case is very, very tempting.
