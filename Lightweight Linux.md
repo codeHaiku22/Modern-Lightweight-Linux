@@ -156,7 +156,7 @@ With the test environment and methodology established, it was now time to put ea
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/linux_lite_logo.png" alt="linux lite logo" height="50">
+<img src="images/linux_lite_logo.png" alt="linux lite logo" height="50">
 
 &nbsp;
 ## First Impressions
@@ -164,11 +164,11 @@ Linux Lite is a beautiful distro.  There are no visible rough edges and there is
 
 &nbsp;
 ### The Welcome Screen
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lite_welcome_screen.png" alt="linux lite welcome screen">
+<img src="images/lite_welcome_screen.png" alt="linux lite welcome screen">
 
 &nbsp;
 ### Control Panel/Settings
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lite_settings.png" alt="linux lite settings">
+<img src="images/lite_settings.png" alt="linux lite settings">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -176,11 +176,11 @@ With a name like "Linux Lite", one would expect that the resources usage for thi
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lite_sysmon.png" alt="linux lite system monitor">
+<img src="images/lite_sysmon.png" alt="linux lite system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lite_df.png" alt="linux lite disk free">
+<img src="images/lite_df.png" alt="linux lite disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -193,7 +193,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/Lubuntu_logo.png" alt="lubuntu logo" height="60">
+<img src="images/Lubuntu_logo.png" alt="lubuntu logo" height="60">
 
 &nbsp;
 ## First Impressions
@@ -201,11 +201,11 @@ Lubuntu may not have the polish of Linux Lite, but it makes up for it in its sim
 
 &nbsp;
 ### Configuration Center
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lubuntu_settings.png" alt="lubuntu settings">
+<img src="images/lubuntu_settings.png" alt="lubuntu settings">
 
 &nbsp;
 ### Unnecessary Applications
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lubuntu_apps.png" alt="lubuntu apps">
+<img src="images/lubuntu_apps.png" alt="lubuntu apps">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -213,11 +213,11 @@ Lubuntu absolutely shines when it comes to being light on resources.  It's hard 
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lubuntu_sysmon.png" alt="lubuntu system monitor">
+<img src="images/lubuntu_sysmon.png" alt="lubuntu system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/lubuntu_df.png" alt="lubuntu disk free">
+<img src="images/lubuntu_df.png" alt="lubuntu disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -230,7 +230,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/ubuntu_mate_logo.png" alt="ubuntu mate logo" height="50">
+<img src="images/ubuntu_mate_logo.png" alt="ubuntu mate logo" height="50">
 
 &nbsp;
 ## First Impressions
@@ -238,11 +238,11 @@ Ubuntu MATE is also another great distribution for those who are new to Linux.  
 
 &nbsp;
 ### Control Center
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_settings.png" alt="ubuntu mate settings">
+<img src="images/mate_settings.png" alt="ubuntu mate settings">
 
 &nbsp;
 ### Software Boutique
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_0ad.png" alt="ubuntu mate 0ad">
+<img src="images/mate_0ad.png" alt="ubuntu mate 0ad">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -250,11 +250,11 @@ From the looks of things, Ubuntu MATE doesn't seem to be competing in terms of b
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_sysmon.png" alt="ubuntu mate system monitor">
+<img src="images/mate_full_sysmon.png" alt="ubuntu mate system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/mate_full_df.png" alt="ubuntu mate disk free">
+<img src="images/mate_full_df.png" alt="ubuntu mate disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -267,7 +267,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_logo.png" alt="xubuntu lite logo" height="60">
+<img src="images/xubuntu_logo.png" alt="xubuntu lite logo" height="60">
 
 &nbsp;
 ## First Impressions
@@ -275,11 +275,11 @@ The one thing that jumps to mind is minimalism (at its finest).  If you want a d
 
 &nbsp;
 ### Settings
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_settings.png" alt="xubuntu settings">
+<img src="images/xubuntu_settings.png" alt="xubuntu settings">
 
 &nbsp;
 ### Unnecessary Applications
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_apps.png" alt="xubuntu apps">
+<img src="images/xubuntu_apps.png" alt="xubuntu apps">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -287,11 +287,11 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_sysmon.png" alt="xubuntu system monitor">
+<img src="images/xubuntu_sysmon.png" alt="xubuntu system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/xubuntu_df.png" alt="xubuntu disk free">
+<img src="images/xubuntu_df.png" alt="xubuntu disk free">
 
 &nbsp;
 ### Usage Stats Summary
@@ -304,7 +304,7 @@ CPU | RAM | Hard Disk
 ---
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_logo.png" alt="zorin logo" height="50">
+<img src="images/zorin_logo.png" alt="zorin logo" height="50">
 
 &nbsp;
 ## First Impressions
@@ -312,11 +312,11 @@ Zorin OS Lite looks good.  Actually, Zorin OS Lite looks great.  It stretches Xf
 
 &nbsp;
 ### Settings
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_settings.png" alt="zorin settings">
+<img src="images/zorin_settings.png" alt="zorin settings">
 
 &nbsp;
 ### Unnecessary Applications
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_apps.png" alt="zorin apps">
+<img src="images/zorin_apps.png" alt="zorin apps">
 
 &nbsp;
 ## Resource Usage at Idle
@@ -324,11 +324,11 @@ Although Xfce is a lightweight desktop environment, it does not necessarily make
 
 &nbsp;
 ### System Monitor
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_sysmon.png" alt="zorin system monitor">
+<img src="images/zorin_sysmon.png" alt="zorin system monitor">
 
 &nbsp;
 ### Disk Usage
-<img src="https://raw.githubusercontent.com/codeHaiku22/Modern-Lightweight-Linux/main/images/zorin_df.png" alt="zorin disk free">
+<img src="images/zorin_df.png" alt="zorin disk free">
 
 &nbsp;
 ### Usage Stats Summary
