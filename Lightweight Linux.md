@@ -51,7 +51,7 @@ Zorin OS Lite | Ubuntu | 15.3 | 09/08/2020 | Fixed | DEB/APT | Xfce | systemd | 
 
 &nbsp;
 ## Methodology
-The procedure for this experiment is quite simple.  Create a virtual machine with no operating system installed and take a snapshot.  Download the ISOs of each distribution. Install a distro to the virtual machine using the default settings whenever possible (avoiding the option to install additional drivers and media codecs).  Then, measure the results at an idle state of the running distro. Finally, revert the virtual machine back to its snapshot (no OS installed) and repeat for the next distro.
+The procedure for this experiment is quite simple.  Create a virtual machine with no operating system installed and take a snapshot.  Download the ISOs of each distribution. Install a distro to the virtual machine using the default settings whenever possible (avoiding the option to install additional drivers and media codecs).  Then, measure the results at an idle state of the running distro. Finally, revert the virtual machine back to the snapshot (no OS installed) and repeat for the next distro.
 
 ### Download the ISO Files
 Thanks to some useful criteria, it is a lot easier to test 5 distros as compared to 20 distros.  I downloaded the latest ISO file directly from the respective website for each distro.  The sizes of the ISOs differed significantly (sorted below in descending file size order). 
@@ -172,7 +172,7 @@ Linux Lite is a beautiful distro.  There are no visible rough edges and there is
 
 &nbsp;
 ## Resource Usage at Idle
-With a name like "Linux Lite", one would expect that the resources usage for this distribution to be quite minimal.  Here's how it fared in terms of CPU and RAM usage at idle along with it's installation footprint size.
+With a name like "Linux Lite", one would expect that the resources usage for this distribution to be quite minimal.  Here's how it fared in terms of CPU and RAM usage at idle along with installation footprint size.
 
 &nbsp;
 ### System Monitor
@@ -197,7 +197,7 @@ CPU | RAM | Hard Disk
 
 &nbsp;
 ## First Impressions
-Lubuntu may not have the polish of Linux Lite, but it makes up for it in its simplicity and performance.  The LXQt desktop environment is snappy and quick to respond to user interactions.  The Configuration Center offers a good selection of settings and configurations that can be accessed from one location.  The default installation comes complete with the full LibreOffice Suite, Firefox, and VLC.  In an interesting move, Trojita is the default email client (and not Thunderbird).  There are a few unnecessary applications which also come preinstalled: K3B, Quassel IRC, and nobleNote.  I don't remember the last time I had to burn to an optical disc OR the last time I had to use IRC (in lieu of Telegram, Matrix, Discord, etc.) OR the last time a sticky note was created (maybe back in the Windows Vista days when experimenting with widgets).  Being a lightweight Linux distribution, the inclusion of these applications seems all the more contrary.  This distribution is perhaps best targeted at Linux users who have at least some basic experience with Linux. 
+Lubuntu may not have the polish of Linux Lite, but it makes up for it with sheer simplicity and noticeable performance.  The LXQt desktop environment is snappy and quick to respond to user interactions.  The Configuration Center offers a good selection of settings and configurations that can be accessed from one location.  The default installation comes complete with the full LibreOffice Suite, Firefox, and VLC.  In an interesting move, Trojita is the default email client (and not Thunderbird).  There are a few unnecessary applications which also come preinstalled: K3B, Quassel IRC, and nobleNote.  I don't remember the last time I had to burn to an optical disc OR the last time I had to use IRC (in lieu of Telegram, Matrix, Discord, etc.) OR the last time a sticky note was created (maybe back in the Windows Vista days when experimenting with widgets).  Being a lightweight Linux distribution, the inclusion of these applications seems all the more contrary.  This distribution is perhaps best targeted at Linux users who have at least some basic experience with Linux. 
 
 &nbsp;
 ### Configuration Center
@@ -271,7 +271,7 @@ CPU | RAM | Hard Disk
 
 &nbsp;
 ## First Impressions
-The one thing that jumps to mind is minimalism (at its finest).  If you want a desktop environment that stays out of your way, Xubuntu featuring Xfce is definitely a great fit.  The installation comes complete with the full LibreOffice suite, Thunderbird, and Firefox.  There are obviously other useful applications that also come pre-installed, in addition to some applications which seem to be irrelevant.  Similar to the criticism of Lubuntu, an optical disc burning application and a sticky notes application just don't seem that useful (although the latter perhaps has more utility).  The Settings Manager is a comprehensive collection of settings and configuration options, but isn't readily visible in the drop-down Whisker menu at first glance (it appears as its own icon in the bottom right corner of the menu next to logging out and shutting down and also is available by right-clicking on the desktop and choosing Applications).  All-in-all, Xubuntu is snappy in performance while being a very attractive looking implementation of a GTK-based desktop environment.  
+The one thing that jumps to mind is minimalism (at its finest).  If you want a desktop environment that stays out of your way, Xubuntu featuring Xfce is definitely a great fit.  The installation comes complete with the full LibreOffice suite, Thunderbird, and Firefox.  There are obviously other useful applications that also come pre-installed, in addition to some applications which seem to be irrelevant.  Similar to the criticism of Lubuntu, an optical disc burning application and a sticky notes application just don't seem that useful (although the latter perhaps has more utility).  The Settings Manager is a comprehensive collection of settings and configuration options, but isn't readily visible in the drop-down Whisker menu at first glance (it appears as an icon in the bottom right corner of the menu next to logging out and shutting down and also is available by right-clicking on the desktop and choosing Applications).  All-in-all, Xubuntu is snappy in performance while being a very attractive looking implementation of a GTK-based desktop environment.  
 
 &nbsp;
 ### Settings
