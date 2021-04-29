@@ -320,7 +320,7 @@ Zorin OS Lite looks good.  Actually, Zorin OS Lite looks great.  It stretches Xf
 
 &nbsp;
 ## Resource Usage at Idle
-Although Xfce is a lightweight desktop environment, it does not necessarily make Xubuntu very lean on resources.  The resource usage is similar to that of Linux Lite (which also uses the Xfce desktop environment).
+Zorin OS Lite is essentially the heaviest Xfce-based distro in this analysis, especially when RAM usage is considered.  The installation footprint size is also on the higher end.  It may be relatively light in comparison to full-blown Zorin OS, but it's usage statistics do not look very flattering when compared to the other 4 distros who are also attempting to be meager on resources. 
 
 &nbsp;
 ### System Monitor
@@ -340,7 +340,7 @@ CPU | RAM | Hard Disk
 
 ---
 ## Conclusion
-After installing each of these distros on a virtual machine and getting to know more about them (especially at an idle state), the following comparison is being made.  The difference of CPU usage at an idle state amongst the distros is negligible.  When we start to look at RAM utilization and hard disk space, the clear stand-out is Lubuntu.  The LXQt desktop really puts the Qt framework in a whole new light of being lean and efficient, especially in terms of memory usage at idle.  
+After installing each of these distros on a virtual machine and getting to know more about them (especially at an idle state), the following comparison is being made.  The difference of CPU usage at an idle state amongst the distros is negligible.  When we start to look at RAM utilization and hard disk space, the clear stand-out is Lubuntu.  The LXQt desktop really puts the Qt framework in a whole new light (pun alert) of being lean and efficient, especially in terms of memory usage at idle.  
 
 &nbsp;
 ### Usage Stats Summary
