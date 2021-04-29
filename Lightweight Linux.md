@@ -349,7 +349,7 @@ Distro | CPU | RAM | Hard Disk
 Linux Lite | 3% | 573 MB (14%) | 7.3 GB (41%)
 Lubuntu | 1% | 392 MB (10%) | 5.2 GB (28%)
 Ubuntu MATE| 2% | 815 MB (21%) | 7.8 GB (44%)
-Zubuntu | 2% | 573 MB (14%) | 7.0 GB (39%)
+Xubuntu | 2% | 573 MB (14%) | 7.0 GB (39%)
 Zorin OS Lite | 1% | 655MB (16%) | 7.2 GB (39%)
 
 &nbsp;
